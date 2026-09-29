@@ -19,7 +19,12 @@
 
 import mysql.connector
 from datetime import datetime, date
+import mysql.connector
+import os
+from dotenv import load_dotenv
+from datetime import datetime, date
 
+load_dotenv()
 # ─────────────────────────────────────────────
 #  DATABASE CONNECTION
 # ─────────────────────────────────────────────
@@ -1030,3 +1035,4 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
